@@ -109,15 +109,15 @@ a {
 
 .fourthblock {
     display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    background-color: #3883f6;
-    /* position: relative; */
+    background-color: white;
     height: 150px;
-    margin-top: 5%;
+    border: 70px solid white;
+    /* margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 5%;
+    padding: 5px; */
+    color: white;
 }
 
 .fourthblockleft {
@@ -125,6 +125,11 @@ a {
     flex-direction: column;
     width: 50%;
     justify-content: center;
+    align-items: start;
+    background-color: #3882f6;
+    padding-left: 30px;
+
+
 
 }
 
@@ -133,6 +138,8 @@ a {
     align-items: center;
     width: 50%;
     justify-content: center;
+    background-color: #3882f6;
+
 }
 
 .blockpara {
