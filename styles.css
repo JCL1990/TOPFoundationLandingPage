@@ -1,0 +1,155 @@
+body {
+    background-color: #1F2937;
+    font-family: "roboto";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: start;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.herotext {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    background-color: #1F2937;
+}
+
+.buttonstyle {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.firstblock {
+    display: flex;
+    margin: 5%;
+}
+
+.firstblockleft {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.firstblockright {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin-right: 10%;
+}
+
+.secondblock {
+    text-align: center;
+    background-color: white;
+}
+
+.containerone {
+    display: flex;
+    justify-content: center;
+}
+
+.containertwo {
+    display: flex;
+    justify-content: center;
+}
+
+.secondblockborders {
+    display: flex;
+    border: 2px solid #3882f6;
+    border-radius: 5%;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.secondblocktext {
+    display: flex;
+    border-radius: 5%;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.thirdblock {
+    font-style: italic;
+    padding: 10%;
+    background-color: #e5e7eb;
+    display: flex;
+}
+
+.fourthblock {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    background-color: #3883f6;
+    /* position: relative; */
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.fourthblockleft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.fourthblockright {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.blockpara {
+    max-width: 100px;
+}
+
+p {
+    max-width: 100%;
+    font-size: 36px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: #1F2937;
+    height: 45px;
+    color: white;
+    */
+}
