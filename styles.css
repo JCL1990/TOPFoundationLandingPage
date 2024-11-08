@@ -1,12 +1,17 @@
+/* html { */
+/* font-family: 'roboto'; */
+/* } */
+
 body {
     background-color: #1F2937;
-    font-family: "roboto";
+    width: 100vw;
+    /* font-family: 'roboto'; */
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
-
     color: white;
     margin-left: 15%;
     margin-right: 15%;
@@ -101,10 +106,19 @@ a {
 }
 
 .thirdblock {
+    display: flex;
+    flex-direction: column;
     font-style: italic;
     padding: 10%;
     background-color: #e5e7eb;
     display: flex;
+}
+
+.quote {
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .fourthblock {
@@ -117,13 +131,14 @@ a {
     margin-right: 15%;
     margin-bottom: 5%;
     padding: 5px; */
+    max-width: 100%;
     color: white;
 }
 
 .fourthblockleft {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     justify-content: center;
     align-items: start;
     background-color: #3882f6;
@@ -133,7 +148,7 @@ a {
 .fourthblockright {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 40%;
     justify-content: center;
     background-color: #3882f6;
 }
@@ -159,7 +174,8 @@ p {
 footer {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     height: 45px;
     color: white;
