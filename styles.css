@@ -143,9 +143,10 @@ a {
     display: flex;
     flex-direction: column;
     font-style: italic;
-    padding: 10%;
+    padding: 2%;
     background-color: #e5e7eb;
     display: flex;
+    /* height: 400px; */
 }
 
 .quote {
